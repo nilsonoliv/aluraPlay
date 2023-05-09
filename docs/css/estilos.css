@@ -43,6 +43,10 @@ body {
     cursor: pointer;
 }
 
+.cabecalho__pesquisar__item{
+    display: none;
+}
+
 .pesquisar__input {
     width: 260px;
     height: 32px;
@@ -197,6 +201,10 @@ body {
     top: 80px;
     right: 0;
     left: 0;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: auto;
 }
 
 .superior__item {
@@ -247,6 +255,9 @@ body {
     line-height: 1.5;
     font-size: 16px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .rodape__titulo {
@@ -281,7 +292,7 @@ body {
         border-top: var(--azul-medio) 1px solid;
         border-bottom: var(--azul-medio) 1px solid;
         width: auto;
-        left: 82px;
+        left: 82px;        
     }
 
     /*ESTILOS SEÇÃO VÍDEOS */
