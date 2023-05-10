@@ -2,59 +2,25 @@
     .cabecalho__pesquisar__item{
         display: block;
     }
-    
-}
-
-@media(min-width: 834px) {
-
-    body {
-        height: 100vh;
-    }
-
-    /* ESTILOS DO MENU LATERAL */
-
-    .menu__container {
-        font-size: 16px;
-    }
-
-    .menu__lista {
-        padding-top: 15px;
-    }
-
-    .menu__lista li {
-        width: 100%;
+    .rodape__container{
+       /* justify-content: space-between;*/
     }
 }
 
 
-
-@media(min-width: 1440px) {
-
-    /* SEÇÃO SUPERIOR */
-
-    .superior__secao__container {
-        left: 247px;
-    }
-
-    /* ESTILOS DO MENU LATERAL */
-
-    .menu__lista {
-        border-bottom: 1.5px solid var(--azul-medio);
-    }
-
-    /* ESTILOS VIDEOS */
-
-    .videos__container {
-        padding-right: 10px;
-        padding-left: 248px;
-    }
-
-    /* ESTILOS RODAPÉ */
-
-    .rodape__container {
-        padding-left: 240px;
-        height: 225px;
-    }
-
+.menu__container{
+    position: fixed;
+    bottom: 0%;
+    height: 74px;
+    width: 100%;
 }
 
+.menu__lista{
+    display: flex;
+}
+
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4){
+    display: none;
+}
