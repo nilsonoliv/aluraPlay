@@ -1,13 +1,46 @@
 
+/*.menu__container{
+    display: flex;
+    justify-content: space-around;
+}*/
+
 .menu__container {
     background-color: var(--azul-escuro);
+    bottom: 0%;
     font-size: 14px;
+    height: 74px;
+    position: fixed;
+    width: 100%;
 }
+.menu__lista{
+    display: flex;
+    justify-content: space-around;
+    /*height: 100%;*/
+    /*width: 100%;*/
+}
+
+.menu__lista li {
+    align-self: center;
+}
+
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4){
+    display: none;
+}
+
 
 .menu__itens:hover {
     background-color: var(--azul-medio);
     transition: .5s;
 }
+
+.menu__itens{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 
 .icone__inicio::before {
     content: url(../img/menu/home.png);
@@ -85,19 +118,3 @@
     content: url(../img/menu/jogos.png);
 }
 
-.menu__container{
-    bottom: 0%;
-    height: 74px;
-    position: fixed;
-    width: 100%;
-}
-
-.menu__lista{
-    display: flex;
-}
-
-.menu__lista:nth-child(2),
-.menu__lista:nth-child(3),
-.menu__lista:nth-child(4){
-    display: none;
-}

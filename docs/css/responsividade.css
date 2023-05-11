@@ -9,9 +9,17 @@
     }
 
     .menu__container {
-        font-size: 16px;
+        font-size: 16px;        
+        height: auto;
+        left: 0;
+        top: 80px;
+        width: 74px;
     }
     .menu__lista {
+        flex-direction: column;
+        gap: 33px;    
+        justify-content: flex-start;
+        padding-top: 15px;    
         padding-top: 15px;
     }
     .menu__lista li {
@@ -37,6 +45,7 @@
 
     .rodape__container {
         height: 420px;
+        justify-content: space-between;
         padding-left: 74px;
     }
 }
@@ -58,7 +67,6 @@
 
     .superior__secao__container {
         display: flex;
-        gap: 15px;
         left: 247px;
     }
 

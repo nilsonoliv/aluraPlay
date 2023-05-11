@@ -3,8 +3,9 @@
     background-color: white;
     color: var(--cinza-texto);
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
+    flex-flow: column wrap;
     font-size: 16px;
     height: 875px;
     line-height: 1.5;
