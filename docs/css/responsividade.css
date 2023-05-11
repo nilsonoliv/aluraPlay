@@ -1,26 +1,79 @@
 @media (min-width:834px) {
+    
+    body {
+        height: 100vh;
+    }
+
     .cabecalho__pesquisar__item{
         display: block;
     }
-    .rodape__container{
-       /* justify-content: space-between;*/
+
+    .menu__container {
+        font-size: 16px;
+    }
+    .menu__lista {
+        padding-top: 15px;
+    }
+    .menu__lista li {
+        width: 100%;
+    }
+    
+    .superior__secao__container {
+        border-top: var(--azul-medio) 1px solid;
+        border-bottom: var(--azul-medio) 1px solid;
+        left: 82px;        
+        width: auto;
+    }
+    
+    
+    .videos__container {
+        padding-left: 90px;
+        padding-right: 17px;
+    }
+    
+    .videos__item:hover {
+        transform: scale(1.3);
+    }      
+
+    .rodape__container {
+        height: 420px;
+        padding-left: 74px;
     }
 }
 
 
-.menu__container{
-    position: fixed;
-    bottom: 0%;
-    height: 74px;
-    width: 100%;
-}
 
-.menu__lista{
-    display: flex;
-}
 
-.menu__lista:nth-child(2),
-.menu__lista:nth-child(3),
-.menu__lista:nth-child(4){
-    display: none;
+
+@media(min-width: 1440px) {
+
+    
+    /* ESTILOS DO MENU LATERAL */
+    
+    .menu__lista {
+        border-bottom: 1.5px solid var(--azul-medio);
+    }
+    
+    /* SEÇÃO SUPERIOR */
+
+    .superior__secao__container {
+        display: flex;
+        gap: 15px;
+        left: 247px;
+    }
+
+    /* ESTILOS VIDEOS */
+
+    .videos__container {
+        padding-right: 10px;
+        padding-left: 248px;
+    }
+
+    /* ESTILOS RODAPÉ */
+
+    .rodape__container {
+        height: 225px;
+        padding-left: 240px;
+    }
+
 }
