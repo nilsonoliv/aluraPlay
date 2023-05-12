@@ -1,9 +1,4 @@
 
-/*.menu__container{
-    display: flex;
-    justify-content: space-around;
-}*/
-
 .menu__container {
     background-color: var(--azul-escuro);
     bottom: 0%;
@@ -14,9 +9,7 @@
 }
 .menu__lista{
     display: flex;
-    justify-content: space-around;
-    /*height: 100%;*/
-    /*width: 100%;*/
+    justify-content: space-around;    
 }
 
 .menu__lista li {
