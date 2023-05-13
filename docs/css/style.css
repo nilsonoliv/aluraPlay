@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+    --azul-escuro: #154580;
+    --azul-medio: #3970BE;
+    --azul-claro: #E5F1FF;
+    --cinza-texto: #444444;
+    --cinza-claro: #ECECEC;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--azul-claro);
+    box-sizing: border-box;
+    /*color: white;*/
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 100vh;
+    overflow: auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
