@@ -9,16 +9,17 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/menu.css">
     <title>AluraPay</title>
 </head>
 <body>
     <!--MENU-->
     <header>
-        <nav>
-            <h1 class="header__logoSite"><img src="./img/cabecalho/Logo.png" alt=""></h1>
+        <nav class="navigator">
+            <h1 class="navigator__logoSite"><img src="./img/cabecalho/Logo.png" alt=""></h1>
 
-            <form class="form__header" action="#" method="get">
-                <input class="input__header" type="search" placeholder="Pesquisar" name="q">
+            <form class="form__navigator" action="#" method="get">
+                <input class="input__navigator" type="search" placeholder="Pesquisar" name="q">
                 <input type="image" src="./img/cabecalho/search.png" alt="submit">                              
             </form>
 
@@ -32,7 +33,22 @@
 
     </header>
     <!--BARRA LATERAL-->
-    <aside></aside>
+    <aside class="menu">
+        <ul>
+            <li> <img src="./img/menu/home.png" alt="">  <p>Início</p> </li>
+            <li> <img src="./img/menu/explore.png" alt=""> <p>Explorar</p> </li>
+            <li> <img src="./img/menu/shorts.png" alt=""> <p>Shorts</p> </li>
+            <li> <img src="./img/menu/subscriptions.png" alt=""> <p>Inscrições</p> </li>
+            <li> <img src="./img/menu/video_library.png" alt=""> <p>Biblioteca</p></li> 
+        </ul>
+        <ul>
+            <li> <img src="./img/menu/history.png" alt=""> <p>Histórico</p></li>
+            <li> <img src="./img/menu/history_toggle_off.png" alt=""> <p>Assistir mais tarde</p></li>
+            <li> <img src="./img/menu/thumb_up_alt.png" alt=""> <p>Marcados com like</p></li>
+        </ul>
+        <ul><li></li></ul>
+        <ul><li></li></ul>
+    </aside>
     <!--CONTEÚDO PRINCIPAL-->
     <main></main>
 
