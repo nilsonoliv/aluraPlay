@@ -18,16 +18,16 @@
         <nav class="navigator">
             <h1 class="navigator__logoSite"><img src="./img/cabecalho/Logo.png" alt=""></h1>
 
-            <form class="form__navigator" action="#" method="get">
-                <input class="input__navigator" type="search" placeholder="Pesquisar" name="q">
-                <input type="image" src="./img/cabecalho/search.png" alt="submit">                              
+            <form class="navigator__form" action="#" method="get">
+                <input class="navigator-input-form" type="search" placeholder="Pesquisar" name="q">
+                <input class="navigator-input-image-form" type="image" src="./img/cabecalho/search.png" alt="submit">                              
             </form>
 
-            <section>
-                <a href="#"><img src="./img/cabecalho/video_call.png" alt="video_call"></a>
-                <a href="#"><img src="./img/cabecalho/apps.png" alt="apps"></a>
-                <a href="#"><img src="./img/cabecalho/notifications.png" alt="notifications"></a>
-                <a href="#"><img src="./img/cabecalho/Avatar.png" alt="Avatar"></a>
+            <section class="navigator__icones">
+                <a href="#"><div class="navigator-icone" src="./img/cabecalho/video_call.png" alt="video_call"></a>
+                <a href="#"><div class="navigator-icone" src="./img/cabecalho/apps.png" alt="apps"></a>
+                <a href="#"><div class="navigator-icone" src="./img/cabecalho/notifications.png" alt="notifications"></a>
+                <a href="#"><div class="navigator-icone" src="./img/cabecalho/Avatar.png" alt="Avatar"></a>
             </section>
         </nav>
 
@@ -35,23 +35,269 @@
     <!--BARRA LATERAL-->
     <aside class="menu">
         <ul>
-            <li> <img src="./img/menu/home.png" alt="">  <p>Início</p> </li>
-            <li> <img src="./img/menu/explore.png" alt=""> <p>Explorar</p> </li>
-            <li> <img src="./img/menu/shorts.png" alt=""> <p>Shorts</p> </li>
-            <li> <img src="./img/menu/subscriptions.png" alt=""> <p>Inscrições</p> </li>
-            <li> <img src="./img/menu/video_library.png" alt=""> <p>Biblioteca</p></li> 
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-inicio"></div>
+                    <p>Início</p> 
+                </a>
+            </li>
+            <li class="menu__itemList">
+                <a href="#">
+                    <div class="item-image-explorar"></div>
+                    <p>Explorar</p> 
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-shorts"></div> 
+                    <p>Shorts</p> 
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-inscricoes"></div> 
+                    <p>Inscrições</p> 
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-biblioteca"></div> 
+                    <p>Biblioteca</p>
+                </a>
+            </li> 
         </ul>
         <ul>
-            <li> <img src="./img/menu/history.png" alt=""> <p>Histórico</p></li>
-            <li> <img src="./img/menu/history_toggle_off.png" alt=""> <p>Assistir mais tarde</p></li>
-            <li> <img src="./img/menu/thumb_up_alt.png" alt=""> <p>Marcados com like</p></li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-historico"></div> 
+                    <p>Histórico</p>
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-assistirMaisTarde"></div> 
+                    <p>Assistir mais tarde</p>
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-marcadosComLike"></div> 
+                    <p>Marcados com like</p>
+                </a>
+            </li>
         </ul>
-        <ul><li></li></ul>
-        <ul><li></li></ul>
-    </aside>
-    <!--CONTEÚDO PRINCIPAL-->
-    <main></main>
+        <ul>
+            <li class="menu__itemList">
+                <a href="#">
+                    <p>Inscrições</p>
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-alura"></div> 
+                    <p>Alura</p>
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-gaveta"></div> 
+                    <p>Gaveta</p>
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-rafaella"></div> 
+                    <p>Rafaella Ballerini</p>
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-atila"></div> 
+                    <p>Átila Lamarino</p>
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-maria"></div> 
+                    <p>Maria Souto</p>
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-nerd"></div> 
+                    <p>Jovem Nerd</p>
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-felipe"></div> 
+                    <p>Felipe Deschamps</p>
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-mostrarMais"></div>
+                    <p>Mostrar mais 2</p>
+                </a>
+            </li>
+        </ul>
 
-    <footer></footer>
+        <ul>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-videoPremium"></div> 
+                    <p>Video Premium</p>
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-filmes"></div> 
+                    <p>Filmes</p>
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-jogos"></div> 
+                    <p>Jogos</p>
+                </a>
+            </li>
+            <li class="menu__itemList"> 
+                <a href="#">
+                    <div class="item-image-maisDaPagina"></div> 
+                    <p>Mais da página</p>
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+
+    <main>
+        <section class="atalhos">
+            <ul class="atalhos__lista">
+                <li class="item-listaAtalhos"> <a href="#" target="_parent">Tudo</a></li>
+                <li class="item-listaAtalhos"> <a href="#" target="_parent">Debates</a></li>
+                <li class="item-listaAtalhos"> <a href="#" target="_parent">Ao Vivo</a></li>
+                <li class="item-listaAtalhos"> <a href="#" target="_parent">Podcasts</a></li>
+                <li class="item-listaAtalhos"> <a href="#" target="_parent">Fundo de Investimentos</a></li>
+                <li class="item-listaAtalhos"> <a href="#" target="_parent">Desenhos</a></li>
+                <li class="item-listaAtalhos"> <a href="#" target="_parent">Data Science</a></li>
+                <li class="item-listaAtalhos"> <a href="#" target="_parent">Apps</a></li>
+                <li class="item-listaAtalhos"> <a href="#" target="_parent">Linguagem de Programação</a></li>
+                <li class="item-listaAtalhos"> <a href="#" target="_parent">Ciência da Computação</a></li>
+                <li class="item-listaAtalhos"> <a href="#" target="_parent">Marketing</a></li>                 
+            </ul>
+        </section>
+        <section class="videos">
+            <ul class="lista__videos">
+                <li class="item-Lista__videos">
+                    <iframe src="" frameborder="0"></iframe>
+                    <div class="descricao__item-Lista"></div>
+                </li>
+                <li class="item-Lista__videos">
+                    <iframe src="" frameborder="0"></iframe>
+                    <div class="descricao__item-Lista"></div>
+                </li>
+                <li class="item-Lista__videos">
+                    <iframe src="" frameborder="0"></iframe>
+                    <div class="descricao__item-Lista"></div>
+                </li>
+                <li class="item-Lista__videos">
+                    <iframe src="" frameborder="0"></iframe>
+                    <div class="descricao__item-Lista"></div>
+                </li>
+                <li class="item-Lista__videos">
+                    <iframe src="" frameborder="0"></iframe>
+                    <div class="descricao__item-Lista"></div>
+                </li>
+                <li class="item-Lista__videos">
+                    <iframe src="" frameborder="0"></iframe>
+                    <div class="descricao__item-Lista"></div>
+                </li>
+                <li class="item-Lista__videos">
+                    <iframe src="" frameborder="0"></iframe>
+                    <div class="descricao__item-Lista"></div>
+                </li>
+                <li class="item-Lista__videos">
+                    <iframe src="" frameborder="0"></iframe>
+                    <div class="descricao__item-Lista"></div>
+                </li>
+                <li class="item-Lista__videos">
+                    <iframe src="" frameborder="0"></iframe>
+                    <div class="descricao__item-Lista"></div>
+                </li>
+                <li class="item-Lista__videos">
+                    <iframe src="" frameborder="0"></iframe>
+                    <div class="descricao__item-Lista"></div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    
+    <!--RODAPE-->
+    
+    <footer>
+        <ul class="menuRodape">
+            <li class="item__menuRodape"> <h2>Programação</h2></li>
+            <li class="item__menuRodape">Lógica</li>
+            <li class="item__menuRodape">Python</li>
+            <li class="item__menuRodape">Computação</li>
+            <li class="item__menuRodape">Jogos</li>
+            <li class="item__menuRodape">Computação</li>
+            <li class="item__menuRodape">Node JS</li>
+        </ul>
+        <ul class="menuRodape">
+            <li class="item__menuRodape"> <h2>Data Science</h2></li>
+            <li class="item__menuRodape">Power Bi</li>
+            <li class="item__menuRodape">SQL</li>
+            <li class="item__menuRodape">Banco de Dados</li>
+            <li class="item__menuRodape">Machine Learning</li>
+            <li class="item__menuRodape">NoSQL</li>            
+        </ul>
+        <ul class="menuRodape">
+            <li class="item__menuRodape"> <h2>UX Design</h2></li>
+            <li class="item__menuRodape">Photoshop</li>
+            <li class="item__menuRodape">Ilustrator</li>
+            <li class="item__menuRodape">Usabilidade</li>
+            <li class="item__menuRodape">Video e Motion</li>
+            <li class="item__menuRodape">Figma</li>            
+            <li class="item__menuRodape">Interface</li>            
+        </ul>
+        <ul class="menuRodape">
+            <li class="item__menuRodape"> <h2>Inovação e Gestão</h2></li>
+            <li class="item__menuRodape">Metodos àgeis</li>
+            <li class="item__menuRodape">Softskills</li>
+            <li class="item__menuRodape">Liderança</li>
+            <li class="item__menuRodape">Gestão</li>
+            <li class="item__menuRodape">Startup</li>            
+            <li class="item__menuRodape">Vendas</li>            
+        </ul>
+        <ul class="menuRodape">
+            <li class="item__menuRodape"> <h2>Front-end</h2></li>
+            <li class="item__menuRodape">HTML</li>
+            <li class="item__menuRodape">CSS</li>
+            <li class="item__menuRodape">React</li>
+            <li class="item__menuRodape">Angular</li>
+            <li class="item__menuRodape">JavaScript</li>            
+            <li class="item__menuRodape">JQuery</li>            
+        </ul>
+        <ul class="menuRodape">
+            <li class="item__menuRodape"> <h2>Devops</h2></li>
+            <li class="item__menuRodape">AWS</li>
+            <li class="item__menuRodape">Azure</li>
+            <li class="item__menuRodape">Docker</li>
+            <li class="item__menuRodape">Segurança</li>
+            <li class="item__menuRodape">IaC</li>            
+            <li class="item__menuRodape">Linux</li>            
+        </ul>
+        <ul class="menuRodape">
+            <li class="item__menuRodape"> <h2>Mobile</h2></li>
+            <li class="item__menuRodape">React Native</li>
+            <li class="item__menuRodape">Flutter</li>
+            <li class="item__menuRodape">iOS</li>
+            <li class="item__menuRodape">Swift</li>
+            <li class="item__menuRodape">Android</li>            
+            <li class="item__menuRodape">Kotlin</li>            
+        </ul>
+    </footer>
 </body>
 </html>
