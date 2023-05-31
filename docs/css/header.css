@@ -3,54 +3,52 @@ height: 13vh;
 }
 
 .navigator{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    
     background: white;
+    display: flex;
+    height: 13vh;
+    justify-content: space-between;
+    padding: 0 5vh 0 3.7vh;       
     position: fixed;
     top: 0;
     width: 100%;
-    height: 13vh;
-    padding: 0 3.7vh 0 4vh;   
 }
 
 
 .navigator__form{
-    display: flex;
     align-items: center;
+    display: flex;
 }
 .navigator-input-form{
     border: 1px;
     border-color: rgba(128, 128, 128, 0.367);
     border-style: solid;
-    padding: 3px 8px;
-    height: 5.1vh;
-    width: 25.1vw;
     font-size: 1rem;
+    height: 5.1vh;
+    padding: 3px 8px;
+    width: 25.1vw;
 }
 .navigator-input-image-form{    
-    border: 1px;
-    border-color: rgba(128, 128, 128, 0.367);
-    border-style: solid;
-    border-left: none;
-    padding: 6px 8.6px;
-    height: 5.1vh;
-    cursor: pointer;
     background: #f9f9f9;
+    border: 1px;
+    border-color: rgba(128, 128, 128, 0.367);    
+    border-style: solid;
+    cursor: pointer;
+    height: 5.1vh;
+    padding: 6px 8.6px;
 }
 
 
 
 .navigator__icones{
     display: flex;
-    height: 6vh;
-    
-    gap: 0 11px;   
+    gap: 0 13px;   
+    height: 6vh;    
 }
 .navigator-icone{
     padding: 15px 15px;
 }
+
 .navigator-icone-video{
     background-image: url(../img/cabecalho/video_call.png);
     background-repeat: no-repeat;

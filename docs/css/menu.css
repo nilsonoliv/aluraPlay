@@ -1,11 +1,67 @@
 .menu{
-    background: rosybrown;
+    align-items: center;
+    background: var(--azul-escuro);
+    bottom: 0;
+    display: flex;    
+    flex-direction: column;
+    left: 0;        
+    padding-top: 15px;
+    position: fixed;
+    top: 13vh;
+    width: 75px;
+}
+
+.menu__list:nth-child(2),
+.menu__list:nth-child(3),
+.menu__list:nth-child(4){
+    display: none;
+}
+
+.menu__list{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;    
+    height: 100%;
 }
 
 .menu__itemList{
-
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    gap: 8px;
 }
 
 .item-image-inicio{
     background-image: url(../img/menu/home.png);
+    background-repeat: no-repeat;
+    background-position: center;    
+    padding: 10px;
+   
+}
+.item-image-explorar{
+    background-image: url(../img/menu/explore.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+}
+.item-image-shorts{
+    background-image: url(../img/menu/shorts.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+}
+.item-image-inscricoes{
+    background-image: url(../img/menu/subscriptions.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+}
+.item-image-biblioteca{
+    background-image: url(../img/menu/video_library.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
 }
