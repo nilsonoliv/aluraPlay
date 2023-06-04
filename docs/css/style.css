@@ -6,13 +6,14 @@
     --azul-claro: #f0f69d;
     --cinza-texto: #154580;
     --cinza-claro: #ECECEC;
+    --laranja-logo:#fa8704;
     box-sizing: border-box;
 }
 
 body {
     background-color: var(--azul-claro);
     box-sizing: border-box;
-    /*color: white;*/
+    color: var(--cinza-texto);
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 14px;
     height: 100vh;
