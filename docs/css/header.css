@@ -14,28 +14,28 @@ height: 13vh;
     width: 100%;
 }
 .navigator__logoSite{
-    position: relative;
     font-size: 1.4rem;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-style: italic;
+    position: relative;
 
 }
 .navigator__logoSite span{
-    font-size: 2.6rem;
-    position: absolute;
-    /*left: -38px;*/
-    top: -0.2rem;    
-    color: var(--laranja-logo);
-    right: 1.9rem;
-    font-weight: 200;
-    z-index: -1;
-    text-shadow: 10px 4px 5px rgba(6, 9, 177, 0.545);
     animation-duration: 4s;
     animation-name: LogoX;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    color: var(--laranja-logo);
+    font-size: 2.6rem;
+    font-weight: 200;
+    position: absolute;
+    /*left: -38px;*/
+    right: 1.9rem;
+    top: -0.2rem;    
+    text-shadow: 10px 4px 5px rgba(6, 9, 177, 0.545);
+    z-index: -1;
     
 }
 
@@ -59,10 +59,10 @@ height: 13vh;
     border-style: solid;
     font-size: 1rem;
     height: 5.1vh;
-    padding: 3px 8px;
-    width: 25.1vw;
     outline: none;
-   transition: border-color 0.7s, border-width 0.5, border-radius 0.5; 
+    padding: 3px 8px;
+    transition: border-color 0.7s, border-width 0.5, border-radius 0.5; 
+    width: 25.1vw;
 }
 .navigator-input-form:hover{
     border-color: var(--azul-medio);
