@@ -4,8 +4,7 @@
     right: 3px;
     border:1px solid var(--azul-medio) ;  
     border-left: none;  
-    border-right: none;
-    width: 100%;
+    border-right: none;    
     margin-left: 10px;
 }
 .atalhos__lista{
@@ -15,8 +14,20 @@
     padding: 0px 20px;
     overflow: scroll;        
     white-space: nowrap;  
-    height: 63px;  
+    height: 63px;      
 }
+
+::-webkit-scrollbar {
+    background-color: #f5f5f5;
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--cinza-medio);
+    border-radius: 10px;
+}
+/*::-webkit-scrollbar-thumb:hover {
+    background-color: var(--cinza-medio);
+}*/
 
 .item-listaAtalhos{
     background: white;
