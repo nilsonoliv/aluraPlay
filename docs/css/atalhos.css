@@ -1,20 +1,20 @@
 .atalhos{
-    position: fixed;
-    left:75px;
-    right: 3px;
     border:1px solid var(--azul-medio) ;  
     border-left: none;  
     border-right: none;    
+    left:75px;
     margin-left: 10px;
+    position: fixed;
+    right: 3px;
 }
 .atalhos__lista{
+    align-items: center;
     display: flex;    
     gap: 15px;
-    align-items: center;
-    padding: 0px 20px;
-    overflow: scroll;        
-    white-space: nowrap;  
     height: 63px;      
+    overflow: scroll;        
+    padding: 0px 20px;
+    white-space: nowrap;  
 }
 
 ::-webkit-scrollbar {
@@ -31,17 +31,17 @@
 
 .item-listaAtalhos{
     background: white;
-    padding: 8px 18px;
     border-radius: 20px;
-    font-size: 1rem;
-    text-align: center;
     cursor: pointer;   
+    font-size: 1rem;
+    padding: 8px 18px;
+    text-align: center;
     transition: all 0.6s; 
 }
 .item-listaAtalhos:hover{
-    transition-property: background-color, color;
-    transition-duration: 0.9s;
     background-color: var(--azul-escuro);
     color: white;    
+    transition-duration: 0.9s;
+    transition-property: background-color, color;
 }
     
