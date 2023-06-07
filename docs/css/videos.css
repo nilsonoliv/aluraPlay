@@ -1,0 +1,11 @@
+.videos{
+   
+
+}
+
+.list__videos{
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
