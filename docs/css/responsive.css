@@ -1,0 +1,34 @@
+
+/*sansung galaxy fold*/
+@media (max-width:280px){
+    /*HEADER*/
+    .navigator{
+        width: auto;
+        padding: 0px;
+    }
+    .navigator__logoSite{
+        font-size: 1.1rem;
+        font-weight: 100;       
+    }
+    .navigator__logoSite span{
+        
+        font-size: 2rem;
+        font-weight: 100;
+        /* left: -38px; */
+        right: 20px;
+        top: 0.4px;
+        text-shadow: 6px 4px 5px rgba(6, 9, 177, 0.545); 
+    }
+    .navigator__form{
+        display: none;
+    }
+    .navigator__icones{
+        display: flex;
+        gap: 0 5px;
+        height: 6vh;
+    }
+    .navigator-icone{
+        padding: 10px;
+    }
+
+}
