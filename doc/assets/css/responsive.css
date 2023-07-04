@@ -2,8 +2,10 @@
 @media (max-width:490px){
     /*HEADER*/
     .navigator{
-        width: auto;
-        padding: 0px;
+      /*  width: auto; */
+    /* display: flex; */
+    padding: 16px;
+
     }
     .navigator__logoSite{
         font-size: 1.1rem;
@@ -23,27 +25,56 @@
     }
     .navigator__icones{
         display: flex;
-        gap: 0 5px;
+        gap: 0 12px;
         height: 6vh;
     }
     .navigator-icone{
-        padding: 10px;
+        padding: 12px;
     }
 
     .menu{
-       
         display: flex;
-        padding-top: 15px;
-        position: fixed;
-        left: 0;
-        bottom: 0;       
-        width: 100%;
-        height: 73px;
-        
+    padding-top: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
+    justify-content: center;
     }
     .menu__list{
-
+        flex-direction: row;
+    height: auto;
+    gap: initial;
+    justify-content: space-around;
+    width: 100%;
     }
+
+    /*MAIN*/
+
+    .atalhos{
+        width: 100%;
+    }
+    .atalhos__lista{
+        left: 0px;
+    margin: 0px 0px 0px 0px;
+    right: 0px;
+    bottom: 0px;
+    }
+
+    .list__videos{
+        width: 100%;
+    margin: 0px 0px 0px 0px;
+    }
+
+    /*FOOTER*/
+    .rodape{
+        width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 68px;
+    }
+
 
 }
 
