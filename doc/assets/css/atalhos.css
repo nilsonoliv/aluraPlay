@@ -20,28 +20,6 @@
 }
 
 
-/*.atalhos{
-    height: 63px;
-}
-.atalhos__lista{
-    background: var(--azul-claro);
-    border:1px solid var(--azul-medio) ;  
-    border-left: none;  
-    border-right: none;    
-    left:75px;
-    margin-left: 10px;
-    position: fixed;
-    right: 3px;
-    align-items: center;
-    display: flex;    
-    gap: 15px;
-    height: 63px;      
-    overflow: scroll;        
-    padding: 0px 20px;
-    white-space: nowrap;  
-}*/
-
-
 ::-webkit-scrollbar {
     background-color: #f5f5f5;
     width: 12px;
@@ -50,9 +28,6 @@
     background-color: var(--cinza-medio);
     border-radius: 10px;
 }
-/*::-webkit-scrollbar-thumb:hover {
-    background-color: var(--cinza-medio);
-}*/
 
 .item-listaAtalhos{
     background: white;
